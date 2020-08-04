@@ -1,0 +1,70 @@
+<!--<!DOCTYPE web-app PUBLIC-->
+<!-- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"-->
+<!-- "http://java.sun.com/dtd/web-app_2_3.dtd" >-->
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+     http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Sql</servlet-name>
+    <servlet-class>com.prismo.Sql</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExecuteServlet</servlet-name>
+    <servlet-class>com.prismo.ExecuteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OSCommandServlet</servlet-name>
+    <servlet-class>com.prismo.OSCommandServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AppServlet</servlet-name>
+    <servlet-class>com.prismo.AppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Deserialize</servlet-name>
+    <servlet-class>com.prismo.Deserialize</servlet-class>
+    <async-supported>true</async-supported>
+  </servlet>
+  <servlet>
+    <servlet-name>Xss</servlet-name>
+    <servlet-class>com.prismo.Xss</servlet-class>
+    <async-supported>true</async-supported>
+  </servlet>
+  <servlet>
+    <servlet-name>SqlAdv</servlet-name>
+    <servlet-class>com.prismo.SqlAdv</servlet-class>
+    <async-supported>true</async-supported>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Sql</servlet-name>
+    <url-pattern>/sql</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deserialize</servlet-name>
+    <url-pattern>/deserialize</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExecuteServlet</servlet-name>
+    <url-pattern>/cmdexec</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OSCommandServlet</servlet-name>
+    <url-pattern>/oscmd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppServlet</servlet-name>
+    <url-pattern>/ssrf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Xss</servlet-name>
+    <url-pattern>/xss</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SqlAdv</servlet-name>
+    <url-pattern>/sqladv</url-pattern>
+  </servlet-mapping>
+</web-app>
