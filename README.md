@@ -1,6 +1,6 @@
 # RASP-Testing-Application
 
-Prismo RASP Vulnerable Web Application
+Prismo's Vulnerable Web Application
 
 This is a vulnerable java web application developed by Prismo Systems. This app is intended for testing Web Application Vulnerability detections. 
 
