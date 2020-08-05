@@ -25,4 +25,6 @@ Following exploits can be tested using this application:
 * Persistence Cross Site Scripting
 
 How to Setup:
+------------
+
  To build the WAR file, import the project in Eclispe. Once project is imported resolve the Maven Dependencies. Build the package using following command: mvn package. It will create a WAR file in target folder. Deploy the WAR file in Apache Tomcat Server.
