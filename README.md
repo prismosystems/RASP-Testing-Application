@@ -6,23 +6,23 @@ This is a vulnerable java web application developed by Prismo Systems. This app 
 
 Following exploits can be tested using this application:
 
-SQL Injection
+* SQL Injection
 
-SQL Injection in Stored Procedure
+* SQL Injection in Stored Procedure
 
-SQL Injection in Prepared Statement
+* SQL Injection in Prepared Statement
 
-Server Side Request Forgery
+* Server Side Request Forgery
 
-Insecure Deserialization
+* Insecure Deserialization
 
-WebShell Command Execution
+* WebShell Command Execution
 
-OS Command Execution
+* OS Command Execution
 
-Reflective Cross Site Scripting
+* Reflective Cross Site Scripting
 
-Persistence Cross Site Scripting
+* Persistence Cross Site Scripting
 
 How to Setup:
 1. Build the WAR file.
