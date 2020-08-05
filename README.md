@@ -27,4 +27,4 @@ Following exploits can be tested using this application:
 How to Setup:
 ------------
 
- To build the WAR file, import the project in Eclispe. Once project is imported resolve the Maven Dependencies. Build the package using following command: mvn package. It will create a WAR file in target folder. Deploy the WAR file in Apache Tomcat Server.
+To build the WAR file, import the project in Eclipse. Once the project is imported, resolve the Maven Dependencies. Build the package using the following command: mvn package, which will create a WAR file in the target folder. Deploy this WAR file in Apache Tomcat Server's web application folder.
