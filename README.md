@@ -26,6 +26,7 @@ Following exploits can be tested using this application:
 
 How to Setup:
 1. Build the WAR file.
+
 	Import the project in Eclipse. Resolve all Maven Dependencies.
 	Build using following command:
 		mvn package
