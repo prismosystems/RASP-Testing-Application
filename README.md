@@ -2,7 +2,7 @@
 
 Prismo RASP Vulnerable Web Application
 
-This is a vulnerable java web application developed by Prismo Systems. This app is intended for testing Web Application Vulnerability detection in Prismo Systems RASP. 
+This is a vulnerable java web application developed by Prismo Systems. This app is intended for testing Web Application Vulnerability detections. 
 
 Following exploits can be tested using this application:
 SQL Injection
