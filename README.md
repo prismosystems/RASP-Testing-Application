@@ -29,11 +29,4 @@ How to Setup:
 	Import the project in Eclipse. Resolve all Maven Dependencies.
 	Build using following command: mvn package
 	
-	It will create a WAR file in target folder.
-	
-	Deploy the WAR file in Apache Tomcat Server.
-
-2. Deploy the existing WAR file.
-
-            Deploy the WAR file available in target folder in Apache Tomcat Server.
-	    
+	It will create a WAR file in target folder. Deploy the WAR file in Apache Tomcat Server.
